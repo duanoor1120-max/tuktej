@@ -1,0 +1,41 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  width: 100vw;
+}
+main {
+  /* background-color: black; */
+  height: 85vh;
+  gap: 10px;
+}
+aside {
+  /* background-color: aqua; */
+  height: 85vh;
+}
+footer {
+  background-color: #343a40;
+  height: 60px;
+  border-radius: 15px;
+}
+body {
+  overflow-x: hidden;
+}
+.sidebar {
+  height: 82.5vh;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #343a40;
+  padding-top: 60px;
+  color: white;
+}
+.sidebar a {
+  color: #ffffff;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  background-color: #495057;
+}
